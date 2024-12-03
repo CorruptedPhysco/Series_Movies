@@ -1,41 +1,43 @@
-* {
-  margin: 1px;
+/* styles.css */
 
+/* General body styling */
+body {
+    background-color: #222222; /* Dark background */
+    color: #FFFFFF; /* White text for contrast */
+    font-family: Arial, sans-serif; /* Clean and modern font */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center align content */
 }
 
-img {
-  border-radius: 8px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100px;
-  height: auto;  
-  animation:ease-in;
-} 
-
-a:link {
-
-  colour: orange;
-  text-decoration: none;
-  
-}
-
-a:visited {
-  colour: #000000;
-  text-decoration: none;
-  
+/* Links */
+a {
+    text-decoration: none; /* Remove underline */
+    color: #FFAA00; /* Vibrant orange color for links */
+    font-size: 1.2em; /* Slightly larger font size */
+    display: inline-block;
+    margin: 10px 0; /* Spacing between links */
+    transition: color 0.3s ease; /* Smooth hover effect */
 }
 
 a:hover {
-
-  colour: #d9d9d9;
-  text-decoration:overline;
-
+    color: #FFD700; /* Golden color on hover */
 }
 
-a:active {
-  
-  colour: #000000;
-  text-decoration: none;
+/* Image styling */
+img {
+    border-radius: 50%; /* Circular image */
+    border: 2px solid #FFAA00; /* Add a border around the image */
+    transition: transform 0.3s ease; /* Smooth zoom effect */
+}
 
+img:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+/* Title styling */
+title {
+    font-size: 2em;
+    color: #FFAA00;
+    margin: 20px 0;
 }
